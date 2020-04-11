@@ -6,7 +6,7 @@ Standard ML package for unifiable references.
 
 - `lib/github.com/diku-dk/sml-uref/uref.mlb`:
 
-  - **signature** [`UREF`](lib/github.com/diku-dk/sml-uref/UREF.sig)
+  - **signature** [`UREF`](lib/github.com/diku-dk/sml-uref/uref.sig)
   - **structure** `URef`
 
 ## Use of the package
