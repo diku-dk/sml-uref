@@ -1,4 +1,4 @@
-# sml-uref [![Build Status](https://travis-ci.org/diku-dk/sml-uref.svg?branch=master)](https://travis-ci.org/diku-dk/sml-uref)
+# sml-uref [![CI](https://github.com/diku-dk/sml-uref/workflows/CI/badge.svg)](https://github.com/diku-dk/sml-uref/actions)
 
 Standard ML package for unifiable references.
 
