@@ -1,11 +1,12 @@
 (** Unifiable references.
- *
- * Unifiable references provide a Union/Find data type with a ref-like
- * interface.  A Union/Find structure consists of a type constructor
- * 'a uref with operations for creating an element of type 'a uref (uRef),
- * getting the contents of an element (!!), checking for equality of
- * two elements (equal), and for unifying two elements (unify).
- *)
+
+Unifiable references provide a Union/Find data type with a ref-like
+interface.  A Union/Find structure consists of a type constructor 'a
+uref with operations for creating an element of type 'a uref (uRef),
+getting the contents of an element (!!), checking for equality of two
+elements (equal), and for unifying two elements (unify).
+
+*)
 
 signature UREF = sig
   type 'a uref
@@ -40,7 +41,7 @@ the same call to uref or if they have been unioned (see below).
 [compare cmp (e, e')] returns EQUAL if eq (e, e') returns true;
 otherwise return cmp (!!e, !!e').
 
-Discussion:
+[Discussion]
 
 The uref type constructor is analogous to the ref type constructor as
 expressed in the following table:
